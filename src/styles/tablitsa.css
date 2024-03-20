@@ -1,0 +1,71 @@
+.tablitsa_title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.tablitsa_text {
+    width: 1300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tablitsa_text h3 {
+    font-weight: 600;
+    font-size: 21px;
+    color: #fff;
+}
+
+.tablitsa_text select {
+    width: 141px;
+    height: 26px;
+    background-color: #0f0f0f;
+    color: white;
+    border: none;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.tablitsa_title button {
+    border-radius: 8px;
+    padding: 10px 15px;
+    width: 94px;
+    height: 38px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 15px;
+    color: #fff;
+    background-color: #22CC70;
+    border: none;
+    cursor: pointer;
+}
+
+.tablitsa_content {
+    border-radius: 0 0 8px 8px;
+    width: 1300px;
+    height: 390px;
+    background-color: #141414;
+}
+.list_title{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: #1E1E1E;
+    height: 45px;
+    padding: 5px 20px;
+    margin-bottom: 20px;
+}
+.list_title span{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    color: #909090;
+}
+.tablitsa_card{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    height: 40px;
+    padding: 0 15px;
+    color: #909090;
+}

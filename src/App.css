@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+.container {
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+body {
+    background: #0F0F0F;
+    color: white;
+}
+
+.App form input {
+    width: 400px;
+    background-color: #141414;
+    height: 35px;
+    padding: 2px 5px;
+    color: white;
+    border: none;
+}
+.App form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
