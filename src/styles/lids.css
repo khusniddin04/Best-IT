@@ -1,0 +1,74 @@
+.lid {
+    padding-top: 50px;
+}
+.lid__wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+}
+.lids {
+    padding: 40px 40px 0;
+    border: 2px solid #1E1E1E;
+    border-radius: 8px;
+    height: 100vh;
+}
+.lids h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #909090;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 31.69px;
+}
+.lids__card {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 19px;
+    background-color:#151515;
+    border-bottom: 2px solid #70707080;
+    border-radius: 8px 8px 0 0;
+}
+.lids__content h4 {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.94px;
+}
+.lids__content p {
+    color: #909090;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18.29px;
+    margin-top: 8px;
+}
+.lids__icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+.lid_icon1 {
+    width: 18px;
+    height: 18px;
+    background-color: #909090;
+    padding: 0.7px;
+    color: #151515;
+    border-radius: 2px;
+}
+.lid_icon2 {
+    width: 18px;
+    height: 18px;
+    background-color: #909090;
+    padding: 2px;
+    color: #151515;
+    border-radius: 2px;
+}
+.lid_icon3 {
+    width: 18px;
+    height: 18px;
+    background-color: #909090;
+    padding: 1px 1.5px;
+    color: #151515;
+    border-radius: 2px;
+}
