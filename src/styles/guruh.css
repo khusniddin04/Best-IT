@@ -1,0 +1,20 @@
+.group_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.group_teacher {
+    border-radius: 8px;
+    width: 350px;
+    height: 580px;
+    background: #151515;
+}
+.group_students{
+    border-radius: 8px;
+    width: 925px;
+    height: 580px;
+    background: #151515;
+}

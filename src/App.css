@@ -6,9 +6,10 @@
 }
 
 .container {
-    max-width: 1300px;
+    max-width: 1360px;
     width: 100%;
     margin: 0 auto;
+    padding: 0 30px;
 }
 
 li {
@@ -26,7 +27,7 @@ body {
 }
 
 .App form input {
-    width: 400px;
+    width: 350px;
     background-color: #141414;
     height: 35px;
     padding: 2px 5px;
@@ -38,4 +39,10 @@ body {
     align-items: center;
     justify-content: center;
     margin-top: 50px;
+    margin-bottom: 30px;
+}
+@media(max-width: 520px){
+    .App form input{
+        width: 310px;
+    }
 }

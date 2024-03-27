@@ -44,7 +44,7 @@
 
 .tablitsa_content {
     border-radius: 0 0 8px 8px;
-    width: 1300px;
+    width: 100%;
     height: 390px;
     background-color: #141414;
 }
@@ -68,4 +68,31 @@
     height: 40px;
     padding: 0 15px;
     color: #909090;
+}
+@media(max-width: 1200px){
+    .tablitsa_card p{
+        font-size: 14px;
+    }
+}
+@media(max-width: 980px){
+    .tablitsa_card p{
+        font-size: 12px;
+    }
+    .tablitsa_text h3{
+        font-size: 18px;
+    }
+}
+@media(max-width: 520px){
+    .tablitsa_card p{
+        font-size: 10px;
+    }
+    .list_text p{
+        font-size: 12px;
+    }
+    .tablitsa_text h3{
+        font-size: 14px;
+    }
+    .tablitsa_text select {
+        font-size: 14px;
+    }
 }
