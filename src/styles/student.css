@@ -1,0 +1,39 @@
+.students {
+    margin: 50px 0 50px;
+}
+
+.students__wrapper {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 25px;
+}
+.student__card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 20px 13px 18px;
+    border-radius: 8px;
+    background-color: #151515;
+}
+.student__card h4 {
+    font-size: 15px;
+    color: #909090;
+    font-weight: 400;
+    line-height: 18.29px;
+}
+.student_img_and_name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 13px;
+}
+.student_icon_and_number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 13px;
+}
+.student_icon {
+    color: #22CC70;
+    size: 30px;
+}

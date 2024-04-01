@@ -1,0 +1,176 @@
+.lid {
+  padding-top: 50px;
+}
+.lid__wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+}
+.lids {
+  padding: 40px 40px 0;
+  border: 2px solid #1e1e1e;
+  border-radius: 8px;
+  height: 100vh;
+}
+.lids h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #909090;
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 31.69px;
+}
+.lids__card {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 19px;
+  background-color: #151515;
+  border-bottom: 2px solid #70707080;
+  border-radius: 8px 8px 0 0;
+}
+.lids__content h4 {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21.94px;
+}
+.lids__content p {
+  color: #909090;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18.29px;
+  margin-top: 8px;
+}
+.lids__icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.lid_icon1 {
+  width: 18px;
+  height: 18px;
+  background-color: #909090;
+  padding: 0.7px;
+  color: #151515;
+  border-radius: 2px;
+}
+.lid_icon1:hover {
+  background-color: #90909081;
+  cursor: pointer;
+}
+.lid_icon2 {
+  width: 18px;
+  height: 18px;
+  background-color: #909090;
+  padding: 2px;
+  color: #151515;
+  border-radius: 2px;
+}
+.lid_icon3 {
+  width: 18px;
+  height: 18px;
+  background-color: #909090;
+  padding: 1px 1.5px;
+  color: #151515;
+  border-radius: 2px;
+}
+
+.editModal {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #9090906f;
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.addLidModal {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #9090906f;
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+.showEditModal {
+  display: flex;
+}
+.editLidForm {
+  border-radius: 16px;
+  width: 366px;
+  height: 439px;
+  background: #0f0f0f;
+  padding: 30px;
+}
+.editLidForm h4 {
+  font-weight: 600;
+  font-size: 26px;
+  color: #fff;
+}
+.editLidForm input {
+  border-radius: 16px;
+  width: 100%;
+  height: 50px;
+  background: #1e1e1e;
+  padding: 14px;
+  border: none;
+  margin-bottom: 15px;
+  color: #22cc70;
+}
+.editLidForm input::placeholder {
+  font-weight: 400;
+  font-size: 18px;
+  color: #909090;
+}
+.editLidForm button {
+  font-weight: 400;
+  font-size: 18px;
+  color: #fff;
+  border-radius: 8px;
+  padding: 10px 15px;
+  width: 100%;
+  height: 42px;
+  background: #22cc70;
+  border: none;
+  margin-top: 30px;
+}
+.editLidForm div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.editLidForm div span {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.addLidForm select {
+  border-radius: 16px;
+  width: 100%;
+  height: 50px;
+  background: #1e1e1e;
+  padding: 14px;
+  border: none;
+  margin-bottom: 15px;
+  color: #22cc70;
+}
+.editLidForm select {
+  border-radius: 16px;
+  width: 100%;
+  height: 50px;
+  background: #1e1e1e;
+  padding: 14px;
+  border: none;
+  margin-bottom: 15px;
+  color: #22cc70;
+}

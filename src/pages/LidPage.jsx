@@ -1,10 +1,11 @@
 import React from 'react'
+import Lids from '../components/Lids'
 
 function LidPage() {
   return (
-    <div>
-      
-    </div>
+    <main>
+      <Lids/>
+    </main>
   )
 }
 

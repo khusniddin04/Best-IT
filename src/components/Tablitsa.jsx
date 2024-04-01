@@ -22,19 +22,19 @@ function Tablitsa() {
                 </div>
                 <div className="tablitsa_content">
                     <div className="list_title">
-                        <span>
+                        <span className='list_text'>
                         <MdOutlineDoorFront />
                             <p>xona</p>
                         </span>
-                        <span>
+                        <span className='list_text'>
                         <LiaBusinessTimeSolid />
                             <p>soat</p>
                         </span>
-                        <span>
+                        <span className='list_text'>
                         <FaList />
                             <p>kurs</p>
                         </span>
-                        <span>
+                        <span className='list_text'>
                         <FaChalkboardTeacher />
                             <p>ustoz</p>
                         </span>
@@ -43,13 +43,13 @@ function Tablitsa() {
                     <div className="tablitsa_card">
                         <p>22-xona</p>
                         <p>8:00 - 10:00</p>
-                        <p>Ingiliz-tili (Pre Intermediate)</p>
+                        <p>Frontend</p>
                         <p>Abdulla Olimov</p>
                     </div>
                     <div className="tablitsa_card">
                         <p>32-xona</p>
                         <p>10:00 - 12:00</p>
-                        <p>matematika (1-guruh)</p>
+                        <p>Backend</p>
                         <p>Olim Abdullayev</p>
                     </div>
                 </div>

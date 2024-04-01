@@ -2,7 +2,10 @@ import React from 'react'
 
 function GroupPage() {
   return (
-    <div>GroupPage</div>
+    <div>
+      <button>Yangi guruh qo'shish</button>
+      
+    </div>
   )
 }
 

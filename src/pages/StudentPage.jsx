@@ -1,8 +1,11 @@
 import React from 'react'
+import Students from '../components/Students'
 
 function StudentPage() {
   return (
-    <div>StudentPage</div>
+    <main>
+      <Students/>
+    </main>
   )
 }
 
