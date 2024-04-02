@@ -1,8 +1,11 @@
 import React from 'react'
+import Teacher from '../components/Teacher'
 
 function TeacherPage() {
   return (
-    <div>TeacherPage</div>
+    <div>
+      <Teacher/>
+    </div>
   )
 }
 

@@ -1,0 +1,49 @@
+.group_teacher{
+    margin: 0 0 0 20px;
+}
+.teacherwraper{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+}
+.header_dynamik{
+    margin: 0 0 20px 20px;
+    height: 60px;
+    width: 430px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 20px 13px 18px;
+    border-radius: 8px;
+    background-color: #151515;
+}
+.aykon{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 15px;
+    color: #909090;
+    font-weight: 400;
+    /* line-height: 18.29px */
+
+}
+.img_1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 15px;
+    color: #909090;
+    font-weight: 400;
+    line-height: 18.29px
+}
+.uchnuqta{
+    color: #22CC70;
+    font-size: 30px;
+}
+.wrapper_dynamik{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}

@@ -9,12 +9,115 @@
 .group_teacher {
     border-radius: 8px;
     width: 350px;
-    height: 580px;
+    height: 100%;
     background: #151515;
+   padding: 10px;
+   margin-top: -10px;
 }
 .group_students{
     border-radius: 8px;
     width: 925px;
-    height: 580px;
+    height: 470px;
     background: #151515;
+    border-radius: 8px;
+}
+.group_teacher img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px auto 20px;
+}
+.group_teacher h3{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.group_teacher p{
+    text-align: center;
+    color: #909090;
+    margin-bottom: 30px;
+}
+.group_price {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    
+}
+.group_price h5{
+    font-size: 14px;
+    font-weight: 400;
+    color: #909090;
+}
+.group_logo{
+    width: 20px;
+    height: 20px;
+    color: #909090;
+}
+.group_teacher ul li{
+    list-style:disc;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.group_students_nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+    background-color: #1E1E1E;
+    border-radius: 8px 8px 0 0;
+}
+.group_students_nav .students_name{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+.lisson_time{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 650px;
+}
+.group_students_members{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+.group_students_members_name{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin-left: 10px;
+}
+.group_students_members_days{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 650px;
+    /* padding: 10px 20px 0 0; */
+    margin-right: 15px;
+}
+.group_students_members_days button{
+    width: 90px;
+    height: 30px;
+    background-color: #151515;
+    border: 1px solid #1D874D;
+    color: #1D874D;
+}
+.group_students_members_days button:nth-of-type(3){
+    border: 1px solid #E71212;
+    color: #E71212;
+}
+.group_students_members_days button:nth-of-type(4){
+    border: 1px solid #E71212;
+    color: #E71212;
+}
+.line{
+    width: 98%;
+    margin-left: 10px;
+    height: 0.5px;
+    color: #909090;
+    border: 1px solid #909090;
 }

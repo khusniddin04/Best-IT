@@ -11,6 +11,7 @@ import StudentPage from './pages/StudentPage';
 import BudjetPage from './pages/BudjetPage';
 import HomePage from './pages/HomePage';
 import CoursePage from './pages/CoursePage';
+import TeacherDynamik from './components/TeacherDynamik';
 const appRouter = createBrowserRouter([
   {
     path:"/",
@@ -25,6 +26,10 @@ const appRouter = createBrowserRouter([
       {
         path:"/teachers",
         element:<TeacherPage/>
+      },
+      {
+        path:"/teachersDynamik",
+        element:<TeacherDynamik/>
       },
      
       {
