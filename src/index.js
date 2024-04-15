@@ -12,6 +12,7 @@ import BudjetPage from './pages/BudjetPage';
 import HomePage from './pages/HomePage';
 import CoursePage from './pages/CoursePage';
 import TeacherDynamik from './components/TeacherDynamik';
+import Groups from './pages/Groups';
 const appRouter = createBrowserRouter([
   {
     path:"/",
@@ -34,6 +35,10 @@ const appRouter = createBrowserRouter([
      
       {
         path:"/groups",
+        element:<Groups/>
+      },
+      {
+        path:"/groups/:groupID",
         element:<GroupPage/>
       },
       {

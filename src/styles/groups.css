@@ -1,0 +1,125 @@
+.group__grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+  margin-top: 100px;
+}
+.group__card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px;
+  border-radius: 8px;
+  width: 600px;
+  height: 66px;
+  background: #151515;
+  width: 100%;
+}
+.group__card:hover {
+  cursor: pointer;
+  box-shadow: 1px 1px 5px #22CC70;
+}
+
+.createGroupContainer {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #9090906f;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.createGroupContainer1 {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #9090906f;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.show {
+  display: flex;
+}
+.createGroupForm {
+  border-radius: 16px;
+  width: 400px;
+  background: #0f0f0f;
+  padding: 30px;
+  
+  gap: 20px;
+}
+.groupLids {
+  border-radius: 16px;
+  width: 400px;
+  background: #0f0f0f;
+  padding: 30px;
+}
+
+.showLids{
+  display: block;
+}
+.createGroupForm h4 {
+  font-weight: 600;
+  font-size: 26px;
+  color: #fff;
+}
+.createGroupForm input {
+  border-radius: 16px;
+  width: 100%;
+  height: 50px;
+  background: #1e1e1e;
+  padding: 14px;
+  border: none;
+  margin-bottom: 15px;
+  color: #22cc70;
+}
+.createGroupForm button {
+  font-weight: 400;
+  font-size: 18px;
+  color: #fff;
+  border-radius: 8px;
+  padding: 10px 15px;
+  width: 100%;
+  height: 42px;
+  background: #22cc70;
+  border: none;
+  margin-top: 30px;
+}
+.createGroupForm .nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.createGroupForm div span {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.createGroupForm select {
+  border-radius: 16px;
+  width: 100%;
+  height: 50px;
+  background: #1e1e1e;
+  padding: 14px;
+  border: none;
+  margin-bottom: 15px;
+  color: #22cc70;
+}
+.selectedLid {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.selectedLid input {
+  width: 20px;
+  height: 20px;
+  margin: 0;
+}

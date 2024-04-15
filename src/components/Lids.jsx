@@ -112,7 +112,6 @@ function Lids() {
   // delete LID
   async function deleteLid(e) {
     let lid_id = e.target.parentElement.parentElement.parentElement.id
-    console.log(lid_id);
    await fetch(`https://crmpanel-yle6.onrender.com/users/${lid_id}`, {
       method:"DELETE"
     })
@@ -144,7 +143,7 @@ function Lids() {
         <div className="lid__wrapper">
           {allCourses?.data?.map((item) => {
             let filteredLids = allLids?.filter(
-              (item1) => item1.courses_ref_id._id === item._id
+              (item1) => item1?.courses_ref_id?._id === item?._id
             );
             return (
               <div className="lids" key={item._id}>

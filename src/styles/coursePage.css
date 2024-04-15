@@ -9,3 +9,83 @@
   padding: 20px;
   border-radius: 20px;
 }
+.createCourseModal{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #9090906f;
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+.editCourseModal {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #9090906f;
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+.showCreateCourseModal {
+  display: flex;
+}
+.showEditCourseModal {
+  display: flex;
+}
+.addCourseForm {
+  border-radius: 16px;
+  width: 366px;
+  height: 439px;
+  background: #0f0f0f;
+  padding: 30px;
+}
+.addCourseForm h4 {
+  font-weight: 600;
+  font-size: 26px;
+  color: #fff;
+}
+.addCourseForm input {
+  border-radius: 16px;
+  width: 100%;
+  height: 50px;
+  background: #1e1e1e;
+  padding: 14px;
+  border: none;
+  margin-bottom: 15px;
+  color: #22cc70;
+}
+.addCourseForm input::placeholder {
+  font-weight: 400;
+  font-size: 18px;
+  color: #909090;
+}
+.addCourseForm button {
+  font-weight: 400;
+  font-size: 18px;
+  color: #fff;
+  border-radius: 8px;
+  padding: 10px 15px;
+  width: 100%;
+  height: 42px;
+  background: #22cc70;
+  border: none;
+  margin-top: 30px;
+}
+.addCourseForm button:hover{
+  cursor: pointer;
+}
+.addCourseForm div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.addCourseForm div span {
+  font-size: 30px;
+  cursor: pointer;
+}
