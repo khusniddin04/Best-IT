@@ -146,7 +146,7 @@ function Groups() {
   return (
     <div className="container">
       <h2>Guruhlar</h2>
-      <button onClick={openCreateGroupModal}>Yangi guruh yaratish</button>
+      <button className="creatBtn" onClick={openCreateGroupModal}>Yangi guruh yaratish</button>
       <div className="createGroupContainer" ref={createGroupModalContainer}>
         <form className="createGroupForm" onSubmit={nextStep}>
           <div className="nav">

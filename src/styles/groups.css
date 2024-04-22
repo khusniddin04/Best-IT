@@ -19,7 +19,22 @@
   cursor: pointer;
   box-shadow: 1px 1px 5px #22CC70;
 }
-
+.creatBtn{
+  position: absolute;
+  right:  40px;
+  top: 110px;
+  border-radius: 8px;
+  padding: 10px 15px;
+  width: 194px;
+  height: 38px;
+  background-color: #22cc70; 
+  cursor: pointer;
+  color: white;
+  border: none;
+  font-size: 15px;
+  font-weight: 600;
+  
+}
 .createGroupContainer {
   position: fixed;
   top: 0;

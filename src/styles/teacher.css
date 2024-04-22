@@ -10,7 +10,7 @@
 }
 .student__card {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     padding: 14px 20px 13px 18px;
     border-radius: 8px;
     background-color: #151515;
@@ -51,4 +51,10 @@
 .add_btn:hover{
     background-color: #909090;
     color: white;
+}
+@media(max-width: 1220px){
+    .students__wrapper {
+        display: block;
+        
+    }
 }

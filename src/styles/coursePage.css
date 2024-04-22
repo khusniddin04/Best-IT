@@ -1,15 +1,79 @@
 .wrapper {
-  margin-top: 100px;
+  margin: 100px auto 0;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 50px;
 }
+
 .course {
-  background-color: #22CC70;
+  background-color: #141414;
   padding: 20px;
   border-radius: 20px;
+  width: 330px;
+  margin: 0 auto;
 }
-.createCourseModal{
+
+.course h4 {
+  margin: 20px 0 20px;
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 18px;
+  color: #fff;
+}
+
+.course h5 {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 15px;
+  color: var(--third-color);
+  margin-bottom: 15px;
+}
+
+.icons {
+  display: flex;
+  align-items: flex-end;  justify-content: space-between;
+}
+
+.icons h6 {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 22px;
+  color: var(--main-color);
+  color: #22cc70;
+}
+
+.logos {
+  margin-top: -30px;
+}
+.openCreates{
+  position: absolute;
+  right:  40px;
+  top: 110px;
+  border-radius: 8px;
+  padding: 10px 15px;
+  width: 184px;
+  height: 38px;
+  background-color: #22cc70; 
+  cursor: pointer;
+  color: white;
+  border: none;
+  font-size: 15px;
+  font-weight: 600;
+}
+.logo {
+  display: block;
+  cursor: pointer;
+  /* color: red; */
+  background-color: #E71212;
+  width: 25px;
+  height: 25px;
+  padding: 3px;
+}
+.logo:nth-of-type(1){
+  background-color: #22cc70;
+}
+
+.createCourseModal {
   position: fixed;
   top: 0;
   bottom: 0;
@@ -20,6 +84,7 @@
   align-items: center;
   justify-content: center;
 }
+
 .editCourseModal {
   position: fixed;
   top: 0;
@@ -31,12 +96,15 @@
   align-items: center;
   justify-content: center;
 }
+
 .showCreateCourseModal {
   display: flex;
 }
+
 .showEditCourseModal {
   display: flex;
 }
+
 .addCourseForm {
   border-radius: 16px;
   width: 366px;
@@ -44,11 +112,13 @@
   background: #0f0f0f;
   padding: 30px;
 }
+
 .addCourseForm h4 {
   font-weight: 600;
   font-size: 26px;
   color: #fff;
 }
+
 .addCourseForm input {
   border-radius: 16px;
   width: 100%;
@@ -59,11 +129,13 @@
   margin-bottom: 15px;
   color: #22cc70;
 }
+
 .addCourseForm input::placeholder {
   font-weight: 400;
   font-size: 18px;
   color: #909090;
 }
+
 .addCourseForm button {
   font-weight: 400;
   font-size: 18px;
@@ -76,16 +148,53 @@
   border: none;
   margin-top: 30px;
 }
-.addCourseForm button:hover{
+
+.addCourseForm button:hover {
   cursor: pointer;
 }
+
 .addCourseForm div {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-bottom: 30px;
 }
+
 .addCourseForm div span {
   font-size: 30px;
   cursor: pointer;
+}
+@media(max-width: 1150px){
+  .wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media(max-width: 770px){
+  .wrapper {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .openCreates{
+   
+    width: 164px;
+    height: 30px;
+    
+    font-size: 13px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media(max-width: 360px){
+  .course {
+    padding: 10px;
+    width: 310px;
+  }
+  .openCreates{
+   right: 0;
+    width: 164px;
+    height: 30px;
+    
+    
+  }
 }

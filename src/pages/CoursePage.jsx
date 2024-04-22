@@ -1,5 +1,9 @@
 import React, { useEffect, useReducer, useRef, useState } from "react";
 import "../styles/coursePage.css";
+import english from '../images/ingiliz.png'
+import { BsPencilSquare } from "react-icons/bs";
+import { RiDeleteBin6Line } from "react-icons/ri";
+
 function CoursePage() {
   const [update_value, forceUpdate] = useReducer((x) => x + 1);
 
@@ -145,23 +149,33 @@ function CoursePage() {
             <button type="submit">O'zgartirish</button>
           </form>
         </div>
-        <button onClick={openCreateCourseModal}>Yangi kurs yaratish</button>
+        <button className=" openCreates" onClick={openCreateCourseModal}>Yangi kurs yaratish</button>
 
         <div className="wrapper">
           {allCourses?.map((course) => {
             return (
               <div className="course" key={course._id} id={course._id}>
+                <img src={english} alt="" />
                 <h4>{course.course_name}</h4>
                 <h5>
-                  
-                  Davomiyligi <span>{course.course_month}</span> oy
-                </h5>
-                <h5>
-                  Narxi <span>{course.course_price}</span> so'm
-                </h5>
 
-                <button onClick={(e) => openEditCourseModal(e)}>Update</button>
-                <button onClick={(e) => deleteCourse(e)}>Delete</button>
+                  Davomiyligi - <span>{course.course_month}</span> oy
+                </h5>
+                <div className="icons">
+
+                  <h6>
+                    Narxi - <span>{course.course_price}</span> so'm
+                  </h6>
+                  <div className="logos">
+
+                  <BsPencilSquare className="logo" onClick={(e) => openEditCourseModal(e)}/>  
+                  <br />
+                  <RiDeleteBin6Line className="logo" onClick={(e) => deleteCourse(e)}/>
+                  </div>
+
+                  {/* <button >Update</button> */}
+                  {/* <button >Delete</button> */}
+                </div>
               </div>
             );
           })}

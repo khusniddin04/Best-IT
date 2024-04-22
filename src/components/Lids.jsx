@@ -121,7 +121,7 @@ function Lids() {
   return (
     <section className="lid">
       <div className="container">
-        <button onClick={openAddLidModal}>Yangi Lid qo'shish</button>
+        <button className="createBtn" onClick={openAddLidModal}>Yangi Lid qo'shish</button>
          <div className="addLidModal" ref={addLidModal}>
          <form onSubmit={(e)=>addLid(e)} className="addLidForm editLidForm">
             <div>

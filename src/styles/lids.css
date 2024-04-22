@@ -1,5 +1,6 @@
 .lid {
   padding-top: 50px;
+  margin-top: 50px;
 }
 .lid__wrapper {
   display: grid;
@@ -11,6 +12,21 @@
   border: 2px solid #1e1e1e;
   border-radius: 8px;
   height: 100vh;
+}
+.createBtn{
+  position: absolute;
+  right:  40px;
+  top: 110px;
+  border-radius: 8px;
+  padding: 10px 15px;
+  width: 194px;
+  height: 38px;
+  background-color: #22cc70; 
+  cursor: pointer;
+  color: white;
+  border: none;
+  font-size: 15px;
+  font-weight: 600;
 }
 .lids h2 {
   margin-bottom: 20px;
@@ -173,4 +189,49 @@
   border: none;
   margin-bottom: 15px;
   color: #22cc70;
+}
+@media(max-width: 1060px){
+  .lid__wrapper{
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .createBtn{
+   
+    width: 164px;
+    height: 38px;
+   
+    font-size: 13px;
+    font-weight: 600;
+  }
+}
+@media(max-width: 840px){
+  .lid__wrapper{
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .createBtn{
+   
+    width: 144px;
+    height: 38px;
+   
+    font-size: 11px;
+    font-weight: 600;
+  }
+  .lids{
+    width: 330px;
+    margin: 0 auto;
+    padding: 10px 10px 0;
+  }
+  .lids h2{
+    font-size: 23px;
+  }
+  .lids__content h4 {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .lids__content p {
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .container{
+    padding: 0 15px;
+  }
 }
